@@ -1,0 +1,8 @@
+---
+# tasks file for nginx
+- name: NGINX | Install nginx server
+  become: yes
+  apt:
+    name: nginx
+    update_cache: yes
+    state: present

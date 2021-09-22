@@ -1,6 +1,6 @@
 [nginx]
-nginx-1 ansible_host=10.10.10.100
-nginx-2 ansible_host=10.10.10.101
+nginx-1 ansible_host=10.10.10.20
+nginx-2 ansible_host=10.10.10.21
 
 [all:vars]
 ansible_user=vagrant
